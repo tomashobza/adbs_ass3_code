@@ -14,7 +14,7 @@ class VectorClockMachine:
   def send_message(self, sender: int):
     # increment sender's clock (it is a vector clock, so we increment the sender's own component)
     self.state[sender][sender] += 1
-    return self.state[sender]
+    return list(self.state[sender]) # return a copy of the sender's clock
   
   def receive_message(self, sender_clk: list[int, int, int], receiver: int):
     # pick maximum of each component of the sender's clock and the receiver's clock
