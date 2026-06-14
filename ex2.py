@@ -35,7 +35,7 @@ guest_dict = {g[0]: g[1] for g in guest}
 
 # booking { "_id": 1, "guest_id": 3, "guest_name": "Bob", "room": 1, "nights": 3, "check_in": "2025-10-05", "year": 2025 }
 
-def transform_booking(booking, guest):
+def transform_booking(booking, guest_dict):
     transformed = []
     for b in booking:
         guest_id = b[0]
@@ -88,7 +88,7 @@ def transform_guest(guest):
         })
     return transformed
 
-booking = transform_booking(booking, guest)
+booking = transform_booking(booking, guest_dict)
 room = transform_room(room, occupancy)
 guest = transform_guest(guest)
 
