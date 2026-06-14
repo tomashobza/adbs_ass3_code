@@ -1,49 +1,47 @@
 [
-    [
-        {
-            "_id": 1,
-            "guest_id": 3,
-            "guest_name": "Bob",
-            "room": 1,
-            "nights": 3,
-            "check_in": "05-10-2025",
-            "year": 2025
-        },
-        {
-            "_id": 2,
-            "guest_id": 12,
-            "guest_name": "Alice",
-            "room": 2,
-            "nights": 7,
-            "check_in": "12-10-2024",
-            "year": 2024
-        },
-        {
-            "_id": 3,
-            "guest_id": 15,
-            "guest_name": "Tom",
-            "room": 3,
-            "nights": 2,
-            "check_in": "20-03-2025",
-            "year": 2025
-        },
-        {
-            "_id": 4,
-            "guest_id": 15,
-            "guest_name": "Tom",
-            "room": 3,
-            "nights": 5,
-            "check_in": "30-09-2024",
-            "year": 2024
-        },
-        {
-            "_id": 5,
-            "guest_id": 18,
-            "guest_name": "Ben",
-            "room": 1,
-            "nights": 10,
-            "check_in": "01-03-2025",
-            "year": 2025
-        }
-    ]
+    {
+        "_id": 1,
+        "guest_id": 3,
+        "guest_name": "Bob",
+        "room": 1,
+        "nights": 3,
+        "check_in": "05-10-2025",
+        "year": 2025
+    },
+    {
+        "_id": 2,
+        "guest_id": 12,
+        "guest_name": "Alice",
+        "room": 2,
+        "nights": 7,
+        "check_in": "12-10-2024",
+        "year": 2024
+    },
+    {
+        "_id": 3,
+        "guest_id": 15,
+        "guest_name": "Tom",
+        "room": 3,
+        "nights": 2,
+        "check_in": "20-03-2025",
+        "year": 2025
+    },
+    {
+        "_id": 4,
+        "guest_id": 15,
+        "guest_name": "Tom",
+        "room": 3,
+        "nights": 5,
+        "check_in": "30-09-2024",
+        "year": 2024
+    },
+    {
+        "_id": 5,
+        "guest_id": 18,
+        "guest_name": "Ben",
+        "room": 1,
+        "nights": 10,
+        "check_in": "01-03-2025",
+        "year": 2025
+    }
 ]

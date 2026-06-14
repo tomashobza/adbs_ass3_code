@@ -88,8 +88,8 @@ def transform_guest(guest):
         })
     return transformed
 
-booking = transform_booking(booking, guest),
-room = transform_room(room, occupancy),
+booking = transform_booking(booking, guest)
+room = transform_room(room, occupancy)
 guest = transform_guest(guest)
 
 # save the converted data to a JSON file
