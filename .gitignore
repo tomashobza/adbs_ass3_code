@@ -1,1 +1,4 @@
 venv
+.vscode
+neo4j-docker
+neo4j-docker.zip
